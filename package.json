@@ -1,0 +1,30 @@
+{
+  "name": "bitcoin-forensics-backend",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "db:init": "node src/db/init.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "csv-parse": "^6.1.0",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "fast-xml-parser": "^5.2.5",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "multer": "^2.0.2",
+    "pg": "^8.16.3",
+    "pg-copy-streams": "^7.0.0",
+    "sax": "^1.4.3",
+    "stream-json": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

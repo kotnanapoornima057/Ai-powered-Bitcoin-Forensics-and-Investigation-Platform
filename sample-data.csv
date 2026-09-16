@@ -1,0 +1,4 @@
+timestamp,src_ip,dst_ip,src_port,dst_port,txid,input_addresses,output_addresses,input_amounts,output_amounts,fee,script_type,geo_country,asn
+2026-08-01T10:15:00Z,192.168.1.20,45.76.12.10,43122,8333,tx001,"[\"1Aabc111\"]","[\"1Bxyz111\"]","[0.52]","[0.51]",0.01,P2PKH,IN,AS4755
+2026-08-01T10:16:32Z,192.168.1.20,45.76.12.10,43125,8333,tx002,"[\"1Aabc111\"]","[\"1Bxyz222\"]","[0.48]","[0.47]",0.01,P2PKH,IN,AS4755
+2026-08-01T10:18:11Z,10.10.10.7,91.108.4.22,50001,8333,tx003,"[\"1Bxyz222\"]","[\"1Cdef333\"]","[0.47]","[0.45]",0.02,P2PKH,US,AS14061
